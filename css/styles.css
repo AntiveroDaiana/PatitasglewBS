@@ -15,9 +15,9 @@ body {
 
 .barraNav2 {
   cursor: pointer;
-  margin-top: 10%;
+  margin-top: 25%;
   margin-left: 3%;
-  width: 30%;
+  width: 50%;
 }
 .barraNav2 img {width: 50%; border-radius: 5%; padding: 5%;}
 
@@ -28,12 +28,32 @@ body {
 .navBar {
   background-color:#9ec0e7;
   padding: 2%;
-  font-family: comic 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 150%;
+  text-align: center;
 }
 
 .pagesLinks a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  padding: 2%;
 }
+
+.pagesLinks a:hover {
+  color:#ffb89d;
+}
+
+/*----------MAIN-------------------*/
+.boxicon-logos {
+  text-align: center;
+}
+.boxicon-logos img{
+  width: 50%;
+}
+.bannerDogs img{
+  width: 100%;
+}
+
+/*----------FOOTER----------------*/
+.footerHorizontal{background-color: #fae7c4; text-align: center; padding: 2%; }
+.iconfooter img{width: 35%; border-radius: 55%;}
