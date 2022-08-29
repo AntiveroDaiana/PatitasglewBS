@@ -54,6 +54,11 @@ body {
   width: 100%;
 }
 
+
+/*---------LINKEDOG MAIN----------------------*/
+.mascota img {
+  width: 50%;
+}
 /*----------FOOTER----------------*/
 .footerHorizontal{background-color: #fae7c4; text-align: center; padding: 2%; }
 .iconfooter img{width: 35%; border-radius: 55%;}
