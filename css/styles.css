@@ -1,5 +1,6 @@
 html {
-  font-size: 62.5%;   /* para que un rem equivale 10px */
+  font-size: 62.5%; 
+  margin: 0;  /* para que un rem equivale 10px */
 }
 
 body {
@@ -43,7 +44,7 @@ body {
   color:#ffb89d;
 }
 
-/*----------MAIN-------------------*/
+/*----------INDEX MAIN-------------------*/
 .boxicon-logos {
   text-align: center;
 }
@@ -54,11 +55,42 @@ body {
   width: 100%;
 }
 
+.iluminacion {
+  width: 600px;
+  height: 200px;
+  position: relative;
+}
+.iluminacion :last-child {
+  filter: blur( 6px );
+  
+}
+.iluminacion p {
+  font-size: 500%;
+  color: transparent;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -50% );
+  
+}
+.BIENVENIDOS {
+ display: flex;
+ justify-content: center;
+}
 
+.main2 {
+  text-align: center;
+}
 /*---------LINKEDOG MAIN----------------------*/
 .mascota img {
   width: 50%;
 }
+.titleGlobal{
+  background-image: url(../img/background-dog.jpg);
+}
+
+
 /*----------FOOTER----------------*/
 .footerHorizontal{background-color: #fae7c4; text-align: center; padding: 2%; }
 .iconfooter img{width: 35%; border-radius: 55%;}
