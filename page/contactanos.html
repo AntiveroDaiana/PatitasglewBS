@@ -2,37 +2,44 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css">  
+    <link href="../img/favicon.png" rel="icon">
+    <link href="../css/styles.css" rel="stylesheet">
     <title>Patitas Glew - Contactanos</title>
 </head>
-<body class="gridIndex">
-    <header>
-        <a href="../index.html" class="barraNav">
-            <img src="../img/logo-patitas.gif" alt="Home">
-        </a>
-        <div class="icono">
-            <a>
+<body class="container-fluid">
+    <header class="row">   
+        <section class="col-4 col-lg-4">
+            <div class="barraNav2">
+                <a>
                 <img src="../img/nariz-de-perro.png" alt="icono barra">
-            </a>
-        </div>
-        <div class="topnav">
-            <nav class="myLinks">
-                <a href="../index.html">Home </a>•  
-                <a href="../page/linkedog.html">LinkeDog </a>•
-                <a href="../page/contactanos.html">Contactanos </a>•
-                <a href="../page/quiero-donar.html">Quiero Donar </a>•
-                <a href="../page/quienes-somos.html">Quienes Somos</a>    
-            </nav>
-        </div>
-    </header>
+                </a>
+            </div>
+        </section>     
+        <section class="col-8 col-lg-8">
+            <div class="barraNav">
+                <a href="../index.html" >
+                <img src="../img/logo-patitas.gif" alt="Home">
+                </a>
+            </div>
+        </section>
+        <section class="col-12 col-lg-12 navBar">
+                <nav class="pagesLinks">
+                    <a href="../index.html">Home </a>  
+                    <a href="../page/linkedog.html">LinkeDog </a>
+                    <a href="../page/contactanos.html">Contactanos </a>
+                    <a href="../page/quiero-donar.html">Quiero Donar </a>
+                    <a href="../page/quienes-somos.html">Quienes Somos</a>    
+                </nav>
+        </section>
+    </header> 
 
-    <main class="gridContactanos">
-        <!--Formulario de contacto-->
-        
-        <div class="formulario">
-            
+    <main class="row"> 
+        <div class="col-12 col-lg-12 formulario"> 
             <form class="BoxContacto">
                 <h1>Escribinos!</h1>
                 <p>Puede que nos demoremos en contactarnos, pero no te preocupes! Pronto recibirás nuestro mensaje :) </p>
@@ -53,47 +60,44 @@
                 <input class="enviar" type="submit" value="Enviar">
             </form>
         </div>
-
-        <!--Cierre de formulario de cont.-->
     </main>
 
-    <footer>
-        <div class="footerHorizontal">
-
-            <div class="texto">
-                <p>© Copyright Patitas Glew - 2022 , Todos los derechos reservados.</p>
-            </div>
-
-            <div class="iconfooter">
-                <ul>
-                <li>
-                    <a href="http://www.instagram.com/patitasglew" target="_blank">
-                        <img src="../img/footer/perrito1.jpg" alt="Instagram">
-                    </a>
-                    <p>Instagram</p>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/patitasglew/" target="_blank">
-                        <img src="../img/footer/perrito2.jpg" alt="Facebook">
-                    </a>
-                    <p>Facebook</p>
-                </li>
-                <li>
-                    <a href="mailto:patitasglewfundacion@hotmail.com">
-                        <img src="../img/footer/perrito3.jpg" alt="Mail">
-                    </a>
-                    <p>E-mail</p>
-                </li>
-                <li>
-                    <a href="https://www.tiktok.com/@patitas.glew" target="_blank">
-                        <img src="../img/footer/perrito4.jpg" alt="tiktok">
-                    </a>
-                    <p>TikTok</p>
-                </li>
-
-            </ul>
-            </div>    
+    <footer class="row footerHorizontal">
+        <section class="col-12 col-lg-12 textoFooter">
+                    <p>© Copyright Patitas Glew - 2022 , Todos los derechos reservados.</p>
+        </section>
+        <div class="col-3 col-lg-3 iconfooter">
+            <a href="http://www.instagram.com/patitasglew" target="_blank">
+                <img src="../img/footer/perrito1.jpg" alt="Instagram">
+            </a>
+            <p>Instagram</p>
+        </div>    
+        <div class="col-3 col-lg-3 iconfooter">               
+            <a href="https://www.facebook.com/patitasglew/" target="_blank">
+                <img src="../img/footer/perrito2.jpg" alt="Facebook">
+            </a>
+            <p>Facebook</p>
         </div>
+        <div class="col-3 col-lg-3 iconfooter">
+            <a href="mailto:patitasglewfundacion@hotmail.com">
+                <img src="../img/footer/perrito3.jpg" alt="Mail">
+            </a>
+            <p>E-mail</p>
+        </div>
+        <div class="col-3 col-lg-3 iconfooter">
+            <a href="https://www.tiktok.com/@patitas.glew" target="_blank">
+                <img src="../img/footer/perrito4.jpg" alt="tiktok">
+            </a>
+            <p>TikTok</p>
+        </div>                 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">   
+    </script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
