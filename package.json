@@ -1,0 +1,23 @@
+{
+  "name": "patitas-glewbs-antiverodaiana",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de front end de coderhouse, el cual se basa en realizarle una sitio web a el refugio de animales ubicado en zona sur, \"Patitas Glew\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiveroDaiana/PatitasglewBS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntiveroDaiana/PatitasglewBS/issues"
+  },
+  "homepage": "https://github.com/AntiveroDaiana/PatitasglewBS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

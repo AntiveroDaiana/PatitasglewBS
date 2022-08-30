@@ -61,13 +61,13 @@ body {
   position: relative;
 }
 .iluminacion :last-child {
-  filter: blur( 6px );
+  filter: blur( 16px );
   
 }
 .iluminacion p {
   font-size: 500%;
-  color: transparent;
-  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 4px rgb(0, 0, 0);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -81,13 +81,26 @@ body {
 
 .main2 {
   text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.parrafo {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 /*---------LINKEDOG MAIN----------------------*/
-.mascota img {
+.mascota img{
   width: 50%;
+}
+.bannerPage2 img {
+  width: 100%;
 }
 .titleGlobal{
   background-image: url(../img/background-dog.jpg);
+}
+.BIENVENIDOS, .main2{
+  background-color: rgba(0, 0, 0, 0.288);
 }
 
 
