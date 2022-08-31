@@ -7,42 +7,22 @@ body {
   font-size: 1.6rem;    /* para que un rem equivale 10px */
 }
 
-/*------------INDEX ------------*/
-.barraNav {
-  width: 35%;
-  margin: 2%;
-}
-.barraNav img {width: 100%; border-radius: 5%;}
+/*------------NAVBAR------------*/
 
-.barraNav2 {
-  cursor: pointer;
-  margin-top: 25%;
-  margin-left: 3%;
-  width: 50%;
+.img-fluid {max-width: 10%;}
+.navbar-brand img:hover {
+    background-color: #9ec0e7;
+    border-radius: 50%;
 }
-.barraNav2 img {width: 50%; border-radius: 5%; padding: 5%;}
-
-.barraNav img:hover, .barraNav2 img:hover {
-  background-color: #9ec0e7;
-}  
-
-.navBar {
-  background-color:#9ec0e7;
-  padding: 2%;
-  font-size: 150%;
-  text-align: center;
+.navbar-light .navbar-toggler {
+    color: #9ec0e7;
+    border-color: rgba(0,0,0,.1);
 }
-
-.pagesLinks a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 2%;
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/nariz-de-perro.png);
 }
-
-.pagesLinks a:hover {
-  color:#ffb89d;
-}
+.navbar-light .navbar-nav .nav-link {color:#9ec0e7;}
+.nav-item a:hover{background-color: #9ec0e7; text-align: center;}
 
 /*----------INDEX MAIN-------------------*/
 .boxicon-logos {
@@ -257,6 +237,9 @@ body {
 .mainwho {
   background-image: url(../img/background-dog.jpg);
 }
+.row>*{
+  padding:0;
+}
 .titlewho h1 {
   font-size: 360%;
   text-align: center;
@@ -313,6 +296,9 @@ body {
 }
 /*----MEDIA QUERIES LINKEDOG------*/
 @media only screen and (max-width: 768px) {
+  .img-fluid {
+    max-width: 25%;
+}
   .titleGlobal {
     display: flex;
     flex-direction: column;

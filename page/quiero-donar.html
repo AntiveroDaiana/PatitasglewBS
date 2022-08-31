@@ -12,30 +12,39 @@
     <title>Patitas Glew - Quiero Donar</title>
 </head>
 <body class="container-fluid">
-    <header class="row">   
-        <section class="col-4 col-lg-4">
-            <div class="barraNav2">
-                <a>
-                <img src="../img/nariz-de-perro.png" alt="icono barra">
-                </a>
+    <header>   
+        <nav class="navbar d-flex flex-nowrap align-items-center navbar-light bg-light">
+              <a class="navbar-brand d-flex justify-content-center" href="../index.html"><img src="../img/logo-patitas.gif" class="img-fluid"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menù Principal</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item fw-bold fs-5">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                    <li class="nav-item fw-bold fs-5">
+                      <a class="nav-link" href="../page/linkedog.html">Linkedog</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                      <a class="nav-link" href="../page/contactanos.html">Escribinos</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                      <a class="nav-link" href="../page/quiero-donar.html">Donaciones</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                      <a class="nav-link" href="../page/quienes-somos.html">Quienes Somos</a>
+                    </li>
+                </ul>
+                </div>
+              </div>
             </div>
-        </section>     
-        <section class="col-8 col-lg-8">
-            <div class="barraNav">
-                <a href="../index.html" >
-                <img src="../img/logo-patitas.gif" alt="Home">
-                </a>
-            </div>
-        </section>
-        <section class="col-12 col-lg-12 navBar">
-                <nav class="pagesLinks">
-                    <a href="../index.html">Home </a>  
-                    <a href="../page/linkedog.html">LinkeDog </a>
-                    <a href="../page/contactanos.html">Contactanos </a>
-                    <a href="../page/quiero-donar.html">Quiero Donar </a>
-                    <a href="../page/quienes-somos.html">Quienes Somos</a>    
-                </nav>
-        </section>
+          </nav>
     </header> 
     
     <main class="maindon">
