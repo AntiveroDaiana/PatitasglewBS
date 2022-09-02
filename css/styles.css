@@ -44,9 +44,6 @@ body {
   border-radius: 55%; }
 
 /*----------INDEX MAIN-------------------*/
-.boxicon-logos {
-  text-align: center; }
-
 .boxicon-logos img {
   width: 50%; }
 
@@ -55,8 +52,7 @@ body {
 
 .iluminacion {
   width: 600px;
-  height: 200px;
-  position: relative; }
+  height: 200px; }
 
 .iluminacion :last-child {
   filter: blur(16px); }
@@ -65,18 +61,11 @@ body {
   font-size: 500%;
   color: white;
   -webkit-text-stroke: 4px black;
-  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); }
 
-.BIENVENIDOS {
-  display: flex;
-  justify-content: center; }
-
 .main2 {
-  text-align: center;
-  font-weight: bold;
   font-size: 150%; }
 
 .BIENVENIDOS, .main2 {
@@ -86,12 +75,10 @@ body {
   color: white;
   -webkit-text-stroke: 1.5px black;
   background-color: #9ec0e7;
-  padding: 1%;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 3%;
-  font-size: 120%;
-  border-radius: 3%; }
+  font-size: 120%; }
 
 /*---------LINKEDOG MAIN----------------------*/
 .bannerPage2 img {
@@ -99,39 +86,26 @@ body {
   margin: 0; }
 
 .titleGlobal {
-  background-image: url(../img/background-dog.jpg);
-  display: flex;
-  justify-content: space-around; }
+  background-image: url(../img/background-dog.jpg); }
 
 .mascota img {
-  width: 50%; }
+  width: 50%;
+  padding: 2%; }
 
 .mascota {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
   width: 45%;
   background-color: #9ec0e7;
-  border-radius: 2%;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-family: Arial, Helvetica, sans-serif; }
 
-.mascota img {
-  width: 80%;
-  border-radius: 2%; }
-
 .mascota h3 {
-  color: white;
-  font-size: 50% large;
-  font-weight: bold; }
+  color: #fff;
+  font-size: 50% large; }
 
-.mascota li {
-  text-align: justify;
+.mascota ul {
   list-style-type: none;
   font-size: 12px; }
 
@@ -142,12 +116,10 @@ body {
   width: 80px;
   border-radius: 10px;
   color: white;
-  font-style: bold;
   background-color: #e496bd; }
 
 .mascota input:hover {
   background-color: white;
-  font-style: bold;
   color: #e496bd; }
 
 /*----------MAIN CONTACTANOS-------*/
@@ -156,13 +128,9 @@ body {
 
 .formulario h1 {
   font-size: 60px;
-  color: black;
-  text-align: center; }
+  color: black; }
 
 .BoxContacto {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #e496bd;
   margin: 20px;
@@ -176,12 +144,10 @@ body {
   height: 40px;
   border-radius: 10px;
   color: white;
-  font-style: bold;
   background-color: #9ec0e7; }
 
 .enviar:hover {
   background-color: #62c09e;
-  font-style: bold;
   color: black; }
 
 /*----------MAIN QUIERO DONAR-------*/
@@ -193,54 +159,33 @@ body {
 
 .don {
   width: 45%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 2%;
   padding: 2%; }
-
-.don a {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-decoration: none; }
 
 .don img {
   width: 80%;
   border-radius: 10px; }
 
 .masdonaciones {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-content: space-between;
-  align-items: center;
   margin-bottom: 5%; }
 
 .OtrasDonaciones {
   background-color: black;
   color: white;
   font-size: 20px;
-  font-weight: bold;
   width: 100%;
   padding: 10px;
   border-radius: 20px;
-  display: flex;
-  align-items: center;
   margin-bottom: 10%; }
 
 .OtrasDonaciones:hover {
   background-color: #9ec0e7;
   color: black; }
 
-.masdonaciones a {
-  text-decoration: none; }
-
 .botonDonacion {
   background-color: black;
   color: white;
   font-size: 20px;
-  font-weight: bold;
   width: 150%;
   margin: 15%;
   padding: 10px;
@@ -255,7 +200,6 @@ body {
 
 .titlewho h1 {
   font-size: 360%;
-  text-align: center;
   background-color: #62c09e67; }
 
 .mainwho img {
@@ -268,21 +212,16 @@ body {
   background-color: white;
   width: 80%;
   padding: 15px;
-  display: flex;
-  align-items: center;
   margin: 5%; }
 
 .cont2 p, .cont3 p, .cont1 p {
   padding: 10px;
-  font-size: 24px;
-  font-style: italic; }
+  font-size: 24px; }
 
-.cont3 {
-  grid-area: cont3;
-  float: inline-start; }
-
-/*----MEDIA QUERIES INDEX------*/
+/*-------MEDIA QUERIES INDEX------*/
 @media only screen and (max-width: 768px) {
+  .navbar-light .navbar-toggler-icon {
+    width: 88%; }
   .iluminacion p {
     font-size: 300%;
     color: white;
