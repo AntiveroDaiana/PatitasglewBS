@@ -42,3 +42,283 @@ body {
 .iconfooter img {
   width: 35%;
   border-radius: 55%; }
+
+/*----------INDEX MAIN-------------------*/
+.boxicon-logos {
+  text-align: center; }
+
+.boxicon-logos img {
+  width: 50%; }
+
+.bannerDogs img {
+  width: 100%; }
+
+.iluminacion {
+  width: 600px;
+  height: 200px;
+  position: relative; }
+
+.iluminacion :last-child {
+  filter: blur(16px); }
+
+.iluminacion p {
+  font-size: 500%;
+  color: white;
+  -webkit-text-stroke: 4px black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.BIENVENIDOS {
+  display: flex;
+  justify-content: center; }
+
+.main2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%; }
+
+.BIENVENIDOS, .main2 {
+  background-color: rgba(0, 0, 0, 0.288); }
+
+.parrafo {
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+  background-color: #9ec0e7;
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+  font-size: 120%;
+  border-radius: 3%; }
+
+/*---------LINKEDOG MAIN----------------------*/
+.bannerPage2 img {
+  width: 100%;
+  margin: 0; }
+
+.titleGlobal {
+  background-image: url(../img/background-dog.jpg);
+  display: flex;
+  justify-content: space-around; }
+
+.mascota img {
+  width: 50%; }
+
+.mascota {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  background-color: #9ec0e7;
+  border-radius: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.mascota img {
+  width: 80%;
+  border-radius: 2%; }
+
+.mascota h3 {
+  color: white;
+  font-size: 50% large;
+  font-weight: bold; }
+
+.mascota li {
+  text-align: justify;
+  list-style-type: none;
+  font-size: 12px; }
+
+.mascota input {
+  cursor: pointer;
+  margin: 3px;
+  padding: 2px;
+  width: 80px;
+  border-radius: 10px;
+  color: white;
+  font-style: bold;
+  background-color: #e496bd; }
+
+.mascota input:hover {
+  background-color: white;
+  font-style: bold;
+  color: #e496bd; }
+
+/*----------MAIN CONTACTANOS-------*/
+.formulario {
+  background-image: url(../img/background-dog.jpg); }
+
+.formulario h1 {
+  font-size: 60px;
+  color: black;
+  text-align: center; }
+
+.BoxContacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #e496bd;
+  margin: 20px;
+  padding: 50px; }
+
+.enviar {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 2px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-style: bold;
+  background-color: #9ec0e7; }
+
+.enviar:hover {
+  background-color: #62c09e;
+  font-style: bold;
+  color: black; }
+
+/*----------MAIN QUIERO DONAR-------*/
+.maindon {
+  background-image: url(../img/background-dog.jpg); }
+
+.bannerdonacion img {
+  width: 100%; }
+
+.don {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  padding: 2%; }
+
+.don a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none; }
+
+.don img {
+  width: 80%;
+  border-radius: 10px; }
+
+.masdonaciones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 5%; }
+
+.OtrasDonaciones {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%; }
+
+.OtrasDonaciones:hover {
+  background-color: #9ec0e7;
+  color: black; }
+
+.masdonaciones a {
+  text-decoration: none; }
+
+.botonDonacion {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150%;
+  margin: 15%;
+  padding: 10px;
+  border-radius: 10px; }
+
+/*----------QUIENES SOMOS--------------*/
+.mainwho {
+  background-image: url(../img/background-dog.jpg); }
+
+.row > * {
+  padding: 0; }
+
+.titlewho h1 {
+  font-size: 360%;
+  text-align: center;
+  background-color: #62c09e67; }
+
+.mainwho img {
+  background-image: url(../img/background-dog.jpg);
+  border-radius: 10px;
+  width: 50%; }
+
+.cont1, .cont2, .cont3 {
+  border-radius: 5%;
+  background-color: white;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin: 5%; }
+
+.cont2 p, .cont3 p, .cont1 p {
+  padding: 10px;
+  font-size: 24px;
+  font-style: italic; }
+
+.cont3 {
+  grid-area: cont3;
+  float: inline-start; }
+
+/*----MEDIA QUERIES INDEX------*/
+@media only screen and (max-width: 768px) {
+  .iluminacion p {
+    font-size: 300%;
+    color: white;
+    -webkit-text-stroke: 2px black; }
+  .main2 {
+    font-size: 114%; }
+  .titleGlobal {
+    display: flex; }
+  .boxicon-logos {
+    width: 150%; } }
+
+/*----MEDIA QUERIES LINKEDOG------*/
+@media only screen and (max-width: 768px) {
+  .img-fluid {
+    max-width: 25%; }
+  .titleGlobal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .mascota {
+    width: 80%; } }
+
+/*----MEDIA QUERIES DONACIONES------*/
+@media only screen and (max-width: 768px) {
+  .don {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%; } }
+
+/*----MEDIA QUERIES DONACIONES------*/
+@media only screen and (max-width: 768px) {
+  .cont1, .cont2, .cont3 {
+    margin: 5%;
+    display: flex;
+    width: 100%;
+    flex-direction: column; }
+  .mainwho p {
+    font-size: 110%; } }
