@@ -23,20 +23,13 @@ body {
   background-color: #9ec0e7;
   text-align: center; }
 
-.navbar-brand img:hover {
+.navbar-brandimg:hover {
   background-color: #9ec0e7;
   border-radius: 50%; }
 
-.navbar-toggler {
-  font-size: 2.25rem;
-  line-height: 2;
-  border-radius: 4.25rem; }
-
 /*-----------FOOTER-----------*/
 .footerHorizontal {
-  font-weight: bold;
   background-color: #fae7c4;
-  text-align: center;
   padding: 2%; }
 
 .iconfooter img {
@@ -53,28 +46,24 @@ body {
 .iluminacion {
   width: 600px;
   height: 200px; }
-
-.iluminacion :last-child {
-  filter: blur(16px); }
-
-.iluminacion p {
-  font-size: 500%;
-  color: white;
-  -webkit-text-stroke: 4px black;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); }
-
-.main2 {
-  font-size: 150%; }
+  .iluminacion p {
+    font-size: 500%;
+    color: white;
+    -webkit-text-stroke: 4px black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .iluminacion p:last-child {
+      filter: blur(16px); }
 
 .BIENVENIDOS, .main2 {
   background-color: rgba(0, 0, 0, 0.288); }
 
-.parrafo {
+.main2 p, .parrafo p {
   color: white;
   -webkit-text-stroke: 1.5px black;
   background-color: #9ec0e7;
+  border-radius: 5%;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 3%;
