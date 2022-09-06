@@ -1,8 +1,9 @@
 html {font-size: 62.5%;margin: 0;} /* para que un rem equivale 10px */
 body {font-size: 1.6rem;} /* para que un rem equivale 10px */
-@import "colores";
-@import "header";
-@import "footer";
+@import "_colores";
+@import "_header";
+@import "_footer";
+@import "_condicionales";
 
 /*----------INDEX MAIN-------------------*/
 .boxicon-logos img{width: 50%;}
@@ -12,8 +13,8 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
   height: 200px;
         p {
           font-size: 500%;
-          color: rgb(255, 255, 255);
-          -webkit-text-stroke: 4px rgb(0, 0, 0);
+          color: $colorBlanco;
+          -webkit-text-stroke: 4px $colorNegro;
           left: 50%;
           top: 50%;
           transform: translate( -50%, -50% );
@@ -23,9 +24,9 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
 
 .BIENVENIDOS, .main2{background-color: rgba(0, 0, 0, 0.288);}
 .main2 p, .parrafo p {
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
-    background-color: #9ec0e7;
+    color: $colorBlanco;
+    -webkit-text-stroke: 1.5px $colorNegro;
+    background-color: $bgPrimario;
     border-radius: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -35,32 +36,34 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
   /*---------LINKEDOG MAIN----------------------*/
 .bannerPage2 img {width: 100%;margin: 0;}
 .titleGlobal{background-image: url(../img/background-dog.jpg);}
-.mascota img{width: 50%; padding: 2%;}
 .mascota {
     width: 45%;
-    background-color: #9ec0e7;  
+    background-color: $bgPrimario;  
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
+      img{width: 50%; padding: 2%;}  
+      h3 {color:$colorBlanco;font-size: 50% large;}
+      ul{list-style-type:none;font-size: 12px;}
+      input {
+        cursor: pointer;
+        margin: 3px;
+        padding: 2px;
+        width: 80px;
+        border-radius: 10px;
+        color: $colorBlanco;
+        background-color: $bgCuarto;
+        &:hover {background-color: white;color: hsl(330, 59%, 74%);}
+      }
   }
-.mascota h3 {color:#fff;font-size: 50% large;}
-.mascota ul{list-style-type:none;font-size: 12px;}
-.mascota input {
-    cursor: pointer;
-    margin: 3px;
-    padding: 2px;
-    width: 80px;
-    border-radius: 10px;
-    color: white;
-    background-color: hsl(330, 59%, 74%);
-  }
-.mascota  input:hover {background-color: white;color: hsl(330, 59%, 74%);}
   
   /*----------MAIN CONTACTANOS-------*/
-.formulario {background-image: url(../img/background-dog.jpg);}
-.formulario h1 {font-size: 60px;color: black;}  
+.formulario {background-image: url(../img/background-dog.jpg);
+  h1 {font-size: 60px;color: black;} 
+}
+
 .BoxContacto {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:hsl(330, 59%, 74%) ;
@@ -76,11 +79,12 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
      border-radius: 10px;
      color: white;
      background-color: #9ec0e7;
+  &:hover {
+    background-color: #62c09e;
+    color: black;
+   }
   }
-.enviar:hover {
-   background-color: #62c09e;
-   color: black;
-  }
+
   /*----------MAIN QUIERO DONAR-------*/
 .maindon {background-image: url(../img/background-dog.jpg);}
 .bannerdonacion img {width: 100%;}
@@ -136,28 +140,6 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
     }
 .cont2 p, .cont3 p, .cont1 p {padding: 10px;font-size: 24px;}
 
-/*-------MEDIA QUERIES INDEX------*/
-@media only screen and (max-width: 768px){
-
-.navbar-light .navbar-toggler-icon {
-    width: 88%;
-}
-.iluminacion p {
-      font-size: 300%;
-      color: rgb(255, 255, 255);
-      -webkit-text-stroke: 2px rgb(0, 0, 0);
-  }
-    .main2 {
-      font-size: 114%;
-    }
-  
-  .titleGlobal {
-    display: flex;
-  }
-  .boxicon-logos {
-    width: 150%;
-  }
-  }
   /*----MEDIA QUERIES LINKEDOG------*/
   @media only screen and (max-width: 768px) {
     .img-fluid {
