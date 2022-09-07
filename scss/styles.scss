@@ -21,7 +21,6 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
         &:last-child {filter: blur( 16px )};
  }    
 }
-
 .BIENVENIDOS, .main2{background-color: rgba(0, 0, 0, 0.288);}
 .main2 p, .parrafo p {
     color: $colorBlanco;
@@ -57,13 +56,11 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
         background-color: $bgCuarto;
         &:hover {background-color: white;color: hsl(330, 59%, 74%);}
       }
-  }
-  
-  /*----------MAIN CONTACTANOS-------*/
+  }  
+/*----------MAIN CONTACTANOS-------*/
 .formulario {background-image: url(../img/background-dog.jpg);
   h1 {font-size: 60px;color: black;} 
 }
-
 .BoxContacto {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:hsl(330, 59%, 74%) ;
@@ -84,19 +81,18 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
     color: black;
    }
   }
-
-  /*----------MAIN QUIERO DONAR-------*/
+/*----------MAIN QUIERO DONAR-------*/
 .maindon {background-image: url(../img/background-dog.jpg);}
 .bannerdonacion img {width: 100%;}
 .don {
     width: 45%;
     margin: 2%;
     padding: 2%;
-  }
-.don img {
+  & img {
     width: 80%;
     border-radius: 10px;
   }
+}
 .masdonaciones {margin-bottom: 5%;}
 .OtrasDonaciones {
     background-color: black;
@@ -106,10 +102,10 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 10%;
-  }
-.OtrasDonaciones:hover {
+  &:hover {
     background-color: #9ec0e7;
     color: black;
+      }
   }
 .botonDonacion {
     background-color: black;
@@ -119,62 +115,24 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
     margin: 15%;
     padding: 10px;
     border-radius: 10px;
-  }
- 
+  } 
 /*----------QUIENES SOMOS--------------*/
-.mainwho {background-image: url(../img/background-dog.jpg);}
-.row>*{padding:0;}
-.titlewho h1 {font-size: 360%;background-color: #62c09e67;}
-  
-.mainwho img{
+.mainwho {
+  background-image: url(../img/background-dog.jpg);
+  & img{
     background-image: url(../img/background-dog.jpg);
     border-radius: 10px;
     width: 50%;
   }
+}
+.row>*{padding:0;}
+.titlewho h1 {font-size: 360%;background-color: #62c09e67;}  
 .cont1, .cont2, .cont3{
       border-radius: 5%;
       background-color: white;
       width: 80%;
       padding: 15px;
       margin: 5%;
+  & p {padding: 10px;font-size: 24px;}    
     }
-.cont2 p, .cont3 p, .cont1 p {padding: 10px;font-size: 24px;}
 
-  /*----MEDIA QUERIES LINKEDOG------*/
-  @media only screen and (max-width: 768px) {
-    .img-fluid {
-      max-width: 25%;
-  }
-    .titleGlobal {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .mascota {
-      width: 80%;
-    }
-  }
-  
-  /*----MEDIA QUERIES DONACIONES------*/
-  @media only screen and (max-width: 768px){
-    .don{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 95%;
-    }
-  }
-  
-  /*----MEDIA QUERIES DONACIONES------*/
-  @media only screen and (max-width: 768px) {
-    .cont1, .cont2, .cont3{
-      margin: 5%;
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-  }
-   .mainwho p {
-    font-size: 110%;
-   }
-  
-  }

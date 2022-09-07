@@ -1,4 +1,6 @@
 $vista: mobile;
+
+/*-------------------MEDIAQUERIE-----------------*/
 body{
     @if $vista == mobile{
         @media only screen and (max-width: 768px){ 
@@ -8,16 +10,42 @@ body{
                 color: rgb(255, 255, 255);
                 -webkit-text-stroke: 2px rgb(0, 0, 0);
             }
-              .main2 {
+            .main2 {
                 font-size: 114%;
-              }
-            
+            }
             .titleGlobal {
-              display: flex;
+                display: flex;
             }
             .boxicon-logos {
-              width: 150%;
-            }   
+                width: 150%;
+            } 
+            .img-fluid {
+                max-width: 25%;
+            }
+            .titleGlobal {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .mascota {
+                width: 80%;
+            }
+            .don{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 95%;
+            }  
+            .cont1, .cont2, .cont3{
+                margin: 5%;
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+            }
+            .mainwho p {
+                font-size: 110%;
+            }
         }
+
     }
 }
