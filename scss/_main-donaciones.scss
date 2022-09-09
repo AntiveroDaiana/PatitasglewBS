@@ -1,0 +1,45 @@
+/*----------MAIN QUIERO DONAR-------*/
+.maindon {background-image: url(../img/background-dog.jpg);}
+.bannerdonacion img {width: 100%;}
+.don {
+    width: 45%;
+    margin: 2%;
+    padding: 2%;
+    & img {
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+.masdonaciones {margin-bottom: 5%;}
+
+$estilos: (
+    color: $colorBlanco,
+    bgColor: $bgNegro,
+    tFuente: 20px,
+    ancho: 100%,
+    0625Rem: 0.625rem,
+    redondo: 1.25rem,
+    margenBajo: 10%
+);
+.otras-donaciones {
+    background-color: map-get($estilos, bgColor);
+    color: map-get($estilos, color);
+    font-size: map-get($estilos, tFuente);
+    width: map-get($estilos, ancho);
+    padding: map-get($estilos, 0625Rem);
+    border-radius: map-get($estilos, redondo);
+    margin-bottom: map-get($estilos, margenBajo);
+  &:hover {
+    background-color: $bgPrimario;
+    color: $colorNegro;
+      }
+  }
+.boton-donacion {
+    background-color: $bgNegro;
+    color: $colorBlanco;
+    font-size: 20px;
+    width: 150%;
+    margin: 15%;
+    padding: 10px;
+    border-radius: 10px;
+  } 

@@ -1,0 +1,21 @@
+/*----------QUIENES SOMOS--------------*/
+.mainwho {
+    background-image: url(../img/background-dog.jpg);
+    & img{
+      background-image: url(../img/background-dog.jpg);
+      border-radius: 10px;
+      width: 50%;
+    }
+  }
+  .row>*{padding:0;}
+  .titlewho h1 {font-size: 360%;background-color: #62c09e67;}  
+  .cont1, .cont2, .cont3{
+        border-radius: 5%;
+        background-color: $bgBlanco;
+        width: 80%;
+        padding: 15px;
+        margin: 5%;
+    & p {padding: 10px;font-size: 24px;}    
+      }
+  
+  

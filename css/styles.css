@@ -81,14 +81,14 @@ body {
 .iluminacion {
   width: 600px;
   height: 200px; }
-  .iluminacion p {
+  .iluminacion h1 {
     font-size: 500%;
     color: white;
     -webkit-text-stroke: 4px black;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); }
-    .iluminacion p:last-child {
+    .iluminacion h1:last-child {
       filter: blur(16px); }
 
 .bienvenidos, .main2 {
@@ -141,6 +141,31 @@ body {
       background-color: white;
       color: #e496bd; }
 
+/*----------QUIENES SOMOS--------------*/
+.mainwho {
+  background-image: url(../img/background-dog.jpg); }
+  .mainwho img {
+    background-image: url(../img/background-dog.jpg);
+    border-radius: 10px;
+    width: 50%; }
+
+.row > * {
+  padding: 0; }
+
+.titlewho h1 {
+  font-size: 360%;
+  background-color: #62c09e67; }
+
+.cont1, .cont2, .cont3 {
+  border-radius: 5%;
+  background-color: white;
+  width: 80%;
+  padding: 15px;
+  margin: 5%; }
+  .cont1 p, .cont2 p, .cont3 p {
+    padding: 10px;
+    font-size: 24px; }
+
 /*----------MAIN CONTACTANOS-------*/
 .formulario {
   background-image: url(../img/background-dog.jpg); }
@@ -190,8 +215,8 @@ body {
   color: white;
   font-size: 20px;
   width: 100%;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
   margin-bottom: 10%; }
   .otras-donaciones:hover {
     background-color: #9ec0e7;
@@ -205,28 +230,3 @@ body {
   margin: 15%;
   padding: 10px;
   border-radius: 10px; }
-
-/*----------QUIENES SOMOS--------------*/
-.mainwho {
-  background-image: url(../img/background-dog.jpg); }
-  .mainwho img {
-    background-image: url(../img/background-dog.jpg);
-    border-radius: 10px;
-    width: 50%; }
-
-.row > * {
-  padding: 0; }
-
-.titlewho h1 {
-  font-size: 360%;
-  background-color: #62c09e67; }
-
-.cont1, .cont2, .cont3 {
-  border-radius: 5%;
-  background-color: white;
-  width: 80%;
-  padding: 15px;
-  margin: 5%; }
-  .cont1 p, .cont2 p, .cont3 p {
-    padding: 10px;
-    font-size: 24px; }

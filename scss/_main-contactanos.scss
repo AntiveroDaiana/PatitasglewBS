@@ -1,0 +1,24 @@
+/*----------MAIN CONTACTANOS-------*/
+.formulario {background-image: url(../img/background-dog.jpg);
+    h1 {font-size: 60px;color: $colorNegro;} 
+  }
+  .box-contacto {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: $bgCuarto;
+      margin: 20px;
+      padding: 50px;
+    }
+  .enviar {
+       box-sizing: border-box;
+       margin: 5px;
+       padding: 2px;
+       width: 100px;
+       height: 40px;
+       border-radius: 10px;
+       color: $colorBlanco;
+       background-color: $bgPrimario;
+    &:hover {
+      background-color: $bgSecundario;
+      color: $colorNegro;
+     }
+    }
