@@ -7,7 +7,7 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
 
 /*----------INDEX MAIN-------------------*/
 .boxicon-logos img{width: 50%;}
-.bannerDogs img{width: 100%;}
+.banner-dogs img{width: 100%;}
 .iluminacion {
   width: 600px;
   height: 200px;
@@ -21,7 +21,7 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
         &:last-child {filter: blur( 16px )};
  }    
 }
-.BIENVENIDOS, .main2{background-color: rgba(0, 0, 0, 0.288);}
+.bienvenidos, .main2{background-color: rgba(0, 0, 0, 0.288);}
 .main2 p, .parrafo p {
     color: $colorBlanco;
     -webkit-text-stroke: 1.5px $colorNegro;
@@ -34,7 +34,7 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
   }
   /*---------LINKEDOG MAIN----------------------*/
 .bannerPage2 img {width: 100%;margin: 0;}
-.titleGlobal{background-image: url(../img/background-dog.jpg);}
+.title-Global{background-image: url(../img/background-dog.jpg);}
 .mascota {
     width: 45%;
     background-color: $bgPrimario;  
@@ -59,11 +59,11 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
   }  
 /*----------MAIN CONTACTANOS-------*/
 .formulario {background-image: url(../img/background-dog.jpg);
-  h1 {font-size: 60px;color: black;} 
+  h1 {font-size: 60px;color: $colorNegro;} 
 }
 .BoxContacto {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:hsl(330, 59%, 74%) ;
+    background-color: $bgCuarto;
     margin: 20px;
     padding: 50px;
   }
@@ -74,11 +74,11 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
      width: 100px;
      height: 40px;
      border-radius: 10px;
-     color: white;
-     background-color: #9ec0e7;
+     color: $colorBlanco;
+     background-color: $bgPrimario;
   &:hover {
-    background-color: #62c09e;
-    color: black;
+    background-color: $bgSecundario;
+    color: $colorNegro;
    }
   }
 /*----------MAIN QUIERO DONAR-------*/
@@ -95,21 +95,21 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
 }
 .masdonaciones {margin-bottom: 5%;}
 .OtrasDonaciones {
-    background-color: black;
-    color: white;
+    background-color: $bgNegro;
+    color: $colorBlanco;
     font-size: 20px;
     width: 100%;
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 10%;
   &:hover {
-    background-color: #9ec0e7;
-    color: black;
+    background-color: $bgPrimario;
+    color: $colorNegro;
       }
   }
 .botonDonacion {
-    background-color: black;
-    color: white;
+    background-color: $bgNegro;
+    color: $colorBlanco;
     font-size: 20px;
     width: 150%;
     margin: 15%;
@@ -129,7 +129,7 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
 .titlewho h1 {font-size: 360%;background-color: #62c09e67;}  
 .cont1, .cont2, .cont3{
       border-radius: 5%;
-      background-color: white;
+      background-color: $bgBlanco;
       width: 80%;
       padding: 15px;
       margin: 5%;
