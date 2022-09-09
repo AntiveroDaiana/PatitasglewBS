@@ -33,8 +33,8 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
     font-size: 120%;
   }
   /*---------LINKEDOG MAIN----------------------*/
-.bannerPage2 img {width: 100%;margin: 0;}
-.title-Global{background-image: url(../img/background-dog.jpg);}
+.banner-page2 img {width: 100%;margin: 0;}
+.title-global{background-image: url(../img/background-dog.jpg);}
 .mascota {
     width: 45%;
     background-color: $bgPrimario;  
@@ -61,7 +61,7 @@ body {font-size: 1.6rem;} /* para que un rem equivale 10px */
 .formulario {background-image: url(../img/background-dog.jpg);
   h1 {font-size: 60px;color: $colorNegro;} 
 }
-.BoxContacto {
+.box-contacto {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: $bgCuarto;
     margin: 20px;
