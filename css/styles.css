@@ -185,7 +185,7 @@ body {
 .masdonaciones {
   margin-bottom: 5%; }
 
-.OtrasDonaciones {
+.otras-donaciones {
   background-color: black;
   color: white;
   font-size: 20px;
@@ -193,11 +193,11 @@ body {
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 10%; }
-  .OtrasDonaciones:hover {
+  .otras-donaciones:hover {
     background-color: #9ec0e7;
     color: black; }
 
-.botonDonacion {
+.boton-donacion {
   background-color: black;
   color: white;
   font-size: 20px;
