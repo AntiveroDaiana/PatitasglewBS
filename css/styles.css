@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 95%; }
-  body .cont1, body .cont2, body .cont3 {
+  body .cont1, body .cont2, body .cont3, body .cont2, body .cont3 {
     margin: 5%;
     display: flex;
     width: 100%;
