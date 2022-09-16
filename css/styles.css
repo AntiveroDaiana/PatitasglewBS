@@ -71,6 +71,16 @@ body {
   body .mainwho p {
     font-size: 110%; } }
 
+.cont1, .cont2, .cont3 {
+  border-radius: 5%;
+  background-color: white;
+  width: 80%;
+  padding: 15px;
+  margin: 5%; }
+  .cont1 p, .cont2 p, .cont3 p {
+    padding: 10px;
+    font-size: 24px; }
+
 /*----------INDEX MAIN-------------------*/
 .boxicon-logos img {
   width: 50%; }
@@ -151,16 +161,6 @@ body {
 .titlewho h1 {
   font-size: 360%;
   background-color: #62c09e67; }
-
-.cont1, .cont2, .cont3 {
-  border-radius: 5%;
-  background-color: white;
-  width: 80%;
-  padding: 15px;
-  margin: 5%; }
-  .cont1 p, .cont2 p, .cont3 p {
-    padding: 10px;
-    font-size: 24px; }
 
 /*----------MAIN CONTACTANOS-------*/
 .formulario {
