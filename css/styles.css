@@ -40,28 +40,28 @@ body {
 @media only screen and (max-width: 768px) {
   body .navbar-light .navbar-toggler-icon {
     width: 88%; }
+  body .iluminacion h1 {
+    font-size: 300%;
+    -webkit-text-stroke: 2px black; }
   body .iluminacion p {
     font-size: 300%;
     color: white;
     -webkit-text-stroke: 2px black; }
   body .main2 {
     font-size: 114%; }
-  body .titleGlobal {
+  body .titleGlobal, body .don {
     display: flex; }
   body .boxicon-logos {
     width: 150%; }
   body .img-fluid {
     max-width: 25%; }
-  body .titleGlobal {
+  body .titleGlobal, body .don {
     display: flex;
     flex-direction: column;
     align-items: center; }
   body .mascota {
     width: 80%; }
   body .don {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 95%; }
   body .cont1, body .cont2, body .cont3, body .cont2, body .cont3 {
     margin: 5%;
@@ -160,7 +160,8 @@ body {
 
 .titlewho h1 {
   font-size: 360%;
-  background-color: #62c09e67; }
+  background-color: #9ec0e7;
+  padding: 1%; }
 
 /*----------MAIN CONTACTANOS-------*/
 .formulario {
